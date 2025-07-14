@@ -1,0 +1,157 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+.category-widget {
+  border: 2px solid #dee2e6;
+  border-radius: 12px;
+  padding: 40px 20px; /* increased from 20px */
+  text-align: center;
+  background-color: #a59898;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 18px; /* slightly larger text */
+  min-height: 140px; /* ensures taller box */
+}
+
+.category-widget:hover {
+  background-color: #889299;
+}
+
+.nav-tabs .nav-link.active {
+  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: #ffffff;
+  font-weight: bold;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.nav-tabs .nav-link {
+  background-color: #e3f2fd;
+  border: 1px solid #dee2e6;
+  margin-right: 4px;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.tab-content {
+  border: 1px solid #dee2e6;
+  border-top: none;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.nav-tabs {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+/* Login.css */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(3px);
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px 30px;
+  border-radius: 12px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.login-btn {
+  background-color: #3b5998;
+  border: none;
+}
+
+.login-btn:hover {
+  background-color: #2d4373;
+}
+
+.logo-orange {
+  color: #f7941e;
+  font-weight: bold;
+}
+
+.logo-blue {
+  color: #007bff;
+  font-weight: bold;
+}
+/* Hide tab scroll buttons in react-bootstrap Tabs */
+.nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-tabs {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Clean Navbar Look */
+.custom-navbar {
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Soft subtle shadow */
+  border-bottom: none;
+  padding: 12px 24px;
+}
+
+/* Remove dropdown button border on focus */
+.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+/* Remove inner outlines on button press */
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.config-group-card {
+  background-color: #fdfdfd;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  height: 100%;
+}
+
+.config-group-title {
+  font-weight: 600;
+  color: #154c79;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.option-box {
+  padding: 4px 8px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.option-box:hover {
+  background-color: #f5fbff;
+}
+
+.option-box.selected {
+  background-color: #e0f7fa;
+  border-color: #4dd0e1;
+  font-weight: 500;
+}
+.nav-tabs .nav-link.active {
+  background-color: #ffffff;
+  color: #154c79;
+  font-weight: 600;
+  box-shadow: inset 0 -2px 0 #154c79;
+}
